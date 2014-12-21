@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9222D5611A47474600978106 /* RADotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222D5601A47474600978106 /* RADotsView.swift */; };
+		9222D5641A474F2500978106 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222D5631A474F2500978106 /* Color.swift */; };
+		92245A721A473F810080749E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92245A711A473F810080749E /* AppDelegate.swift */; };
+		92245A741A473F810080749E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92245A731A473F810080749E /* ViewController.swift */; };
+		92245A771A473F810080749E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92245A751A473F810080749E /* Main.storyboard */; };
+		92245A791A473F810080749E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92245A781A473F810080749E /* Images.xcassets */; };
+		92245A7C1A473F810080749E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92245A7A1A473F810080749E /* LaunchScreen.xib */; };
+		92245A881A473F810080749E /* RelaxAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92245A871A473F810080749E /* RelaxAppTests.swift */; };
+		92245A971A47402B0080749E /* RADotZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92245A961A47402B0080749E /* RADotZone.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92245A821A473F810080749E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92245A641A473F810080749E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92245A6B1A473F810080749E;
+			remoteInfo = RelaxApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9222D5601A47474600978106 /* RADotsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RADotsView.swift; path = Core/Classes/RADotsView.swift; sourceTree = "<group>"; };
+		9222D5631A474F2500978106 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		92245A6C1A473F810080749E /* RelaxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelaxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92245A701A473F810080749E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92245A711A473F810080749E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92245A731A473F810080749E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92245A761A473F810080749E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92245A781A473F810080749E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92245A7B1A473F810080749E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		92245A811A473F810080749E /* RelaxAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelaxAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92245A861A473F810080749E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92245A871A473F810080749E /* RelaxAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxAppTests.swift; sourceTree = "<group>"; };
+		92245A961A47402B0080749E /* RADotZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RADotZone.swift; path = Core/Classes/RADotZone.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92245A691A473F810080749E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92245A7E1A473F810080749E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9222D5621A474F1A00978106 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9222D5631A474F2500978106 /* Color.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		92245A631A473F810080749E = {
+			isa = PBXGroup;
+			children = (
+				92245A6E1A473F810080749E /* RelaxApp */,
+				92245A841A473F810080749E /* RelaxAppTests */,
+				92245A6D1A473F810080749E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92245A6D1A473F810080749E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92245A6C1A473F810080749E /* RelaxApp.app */,
+				92245A811A473F810080749E /* RelaxAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92245A6E1A473F810080749E /* RelaxApp */ = {
+			isa = PBXGroup;
+			children = (
+				92245A931A473F9C0080749E /* AppDelegate */,
+				92245A941A473FA20080749E /* Core */,
+				92245A921A473F940080749E /* ViewControllers */,
+				92245A911A473F8C0080749E /* Recources */,
+				92245A6F1A473F810080749E /* Supporting Files */,
+			);
+			path = RelaxApp;
+			sourceTree = "<group>";
+		};
+		92245A6F1A473F810080749E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92245A701A473F810080749E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92245A841A473F810080749E /* RelaxAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				92245A871A473F810080749E /* RelaxAppTests.swift */,
+				92245A851A473F810080749E /* Supporting Files */,
+			);
+			path = RelaxAppTests;
+			sourceTree = "<group>";
+		};
+		92245A851A473F810080749E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92245A861A473F810080749E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92245A911A473F8C0080749E /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				92245A751A473F810080749E /* Main.storyboard */,
+				92245A781A473F810080749E /* Images.xcassets */,
+				92245A7A1A473F810080749E /* LaunchScreen.xib */,
+			);
+			name = Recources;
+			sourceTree = "<group>";
+		};
+		92245A921A473F940080749E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				92245A731A473F810080749E /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		92245A931A473F9C0080749E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				92245A711A473F810080749E /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		92245A941A473FA20080749E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9222D5621A474F1A00978106 /* Extension */,
+				92245A951A473FA80080749E /* Classes */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		92245A951A473FA80080749E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				92245A961A47402B0080749E /* RADotZone.swift */,
+				9222D5601A47474600978106 /* RADotsView.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92245A6B1A473F810080749E /* RelaxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92245A8B1A473F810080749E /* Build configuration list for PBXNativeTarget "RelaxApp" */;
+			buildPhases = (
+				92245A681A473F810080749E /* Sources */,
+				92245A691A473F810080749E /* Frameworks */,
+				92245A6A1A473F810080749E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelaxApp;
+			productName = RelaxApp;
+			productReference = 92245A6C1A473F810080749E /* RelaxApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92245A801A473F810080749E /* RelaxAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92245A8E1A473F810080749E /* Build configuration list for PBXNativeTarget "RelaxAppTests" */;
+			buildPhases = (
+				92245A7D1A473F810080749E /* Sources */,
+				92245A7E1A473F810080749E /* Frameworks */,
+				92245A7F1A473F810080749E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92245A831A473F810080749E /* PBXTargetDependency */,
+			);
+			name = RelaxAppTests;
+			productName = RelaxAppTests;
+			productReference = 92245A811A473F810080749E /* RelaxAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92245A641A473F810080749E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RA;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = alex;
+				TargetAttributes = {
+					92245A6B1A473F810080749E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					92245A801A473F810080749E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 92245A6B1A473F810080749E;
+					};
+				};
+			};
+			buildConfigurationList = 92245A671A473F810080749E /* Build configuration list for PBXProject "RelaxApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92245A631A473F810080749E;
+			productRefGroup = 92245A6D1A473F810080749E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92245A6B1A473F810080749E /* RelaxApp */,
+				92245A801A473F810080749E /* RelaxAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92245A6A1A473F810080749E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92245A771A473F810080749E /* Main.storyboard in Resources */,
+				92245A7C1A473F810080749E /* LaunchScreen.xib in Resources */,
+				92245A791A473F810080749E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92245A7F1A473F810080749E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92245A681A473F810080749E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92245A741A473F810080749E /* ViewController.swift in Sources */,
+				92245A971A47402B0080749E /* RADotZone.swift in Sources */,
+				92245A721A473F810080749E /* AppDelegate.swift in Sources */,
+				9222D5641A474F2500978106 /* Color.swift in Sources */,
+				9222D5611A47474600978106 /* RADotsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92245A7D1A473F810080749E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92245A881A473F810080749E /* RelaxAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92245A831A473F810080749E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92245A6B1A473F810080749E /* RelaxApp */;
+			targetProxy = 92245A821A473F810080749E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92245A751A473F810080749E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92245A761A473F810080749E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92245A7A1A473F810080749E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92245A7B1A473F810080749E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92245A891A473F810080749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92245A8A1A473F810080749E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92245A8C1A473F810080749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RelaxApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92245A8D1A473F810080749E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RelaxApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92245A8F1A473F810080749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RelaxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelaxApp.app/RelaxApp";
+			};
+			name = Debug;
+		};
+		92245A901A473F810080749E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RelaxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelaxApp.app/RelaxApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92245A671A473F810080749E /* Build configuration list for PBXProject "RelaxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92245A891A473F810080749E /* Debug */,
+				92245A8A1A473F810080749E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92245A8B1A473F810080749E /* Build configuration list for PBXNativeTarget "RelaxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92245A8C1A473F810080749E /* Debug */,
+				92245A8D1A473F810080749E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92245A8E1A473F810080749E /* Build configuration list for PBXNativeTarget "RelaxAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92245A8F1A473F810080749E /* Debug */,
+				92245A901A473F810080749E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92245A641A473F810080749E /* Project object */;
+}
