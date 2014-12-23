@@ -16,6 +16,7 @@
 		92245A7C1A473F810080749E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92245A7A1A473F810080749E /* LaunchScreen.xib */; };
 		92245A881A473F810080749E /* RelaxAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92245A871A473F810080749E /* RelaxAppTests.swift */; };
 		92245A971A47402B0080749E /* RADotZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92245A961A47402B0080749E /* RADotZone.swift */; };
+		922A5D2C1A4A2C1E008B4EE4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922A5D2B1A4A2C1E008B4EE4 /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		92245A861A473F810080749E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92245A871A473F810080749E /* RelaxAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxAppTests.swift; sourceTree = "<group>"; };
 		92245A961A47402B0080749E /* RADotZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RADotZone.swift; path = Core/Classes/RADotZone.swift; sourceTree = "<group>"; };
+		922A5D2B1A4A2C1E008B4EE4 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Core/Extension/Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				9222D5631A474F2500978106 /* Color.swift */,
+				922A5D2B1A4A2C1E008B4EE4 /* Image.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92245A741A473F810080749E /* ViewController.swift in Sources */,
+				922A5D2C1A4A2C1E008B4EE4 /* Image.swift in Sources */,
 				92245A971A47402B0080749E /* RADotZone.swift in Sources */,
 				92245A721A473F810080749E /* AppDelegate.swift in Sources */,
 				9222D5641A474F2500978106 /* Color.swift in Sources */,

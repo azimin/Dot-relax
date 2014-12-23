@@ -21,11 +21,22 @@ class RADotsView: UIView {
         }
     }
     
+    @IBInspectable
     var spaceBetweenViews: CGFloat = 64 {
         didSet {
             loadZones()
         }
     }
+    
+    @IBInspectable
+    var dotImage: UIImage? {
+        didSet {
+            loadZones()
+        }
+    }
+    
+    @IBInspectable
+    var dotSize: CGFloat = defaultDotSize
     
     private var zones: [RADotZone] = []
     
@@ -79,6 +90,8 @@ class RADotsView: UIView {
                 let zone = RADotZone(frame: frame, color: nil, selectedColor: nil)
                 
                 zone.userInteractionEnabled = false
+                zone.dotImage = dotImage
+                zone.dotSize = dotSize
                 
                 self.addSubview(zone)
                 zones.append(zone)

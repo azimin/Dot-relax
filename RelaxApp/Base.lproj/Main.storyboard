@@ -21,8 +21,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="dotSize">
-                                        <real key="value" value="8"/>
+                                        <real key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="dotImage" value="star"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
@@ -39,4 +40,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="star" width="50" height="50"/>
+    </resources>
 </document>

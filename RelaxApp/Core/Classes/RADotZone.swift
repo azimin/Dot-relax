@@ -8,7 +8,7 @@
 
 import UIKit
 
-private let defaultDotSize: CGFloat = 8
+let defaultDotSize: CGFloat = 8
 
 class RADotZone: UIView {
     
@@ -17,7 +17,11 @@ class RADotZone: UIView {
     @IBInspectable
     var color: UIColor = UIColor.colorWithHexString("808080") {
         didSet {
-            dot.backgroundColor = color
+            if let image = dotImage {
+                dot.image = image.imageWithColor(color)
+            } else {
+                dot.backgroundColor = color
+            }
         }
     }
     
@@ -28,13 +32,29 @@ class RADotZone: UIView {
     var dotSize: CGFloat = defaultDotSize {
         didSet {
             dot.frame = CGRectMake(0, 0, dotSize, dotSize)
-            dot.layer.cornerRadius = dotSize / 2
             dot.center = centerOnView
+            
+            if dotImage == nil {
+                dot.layer.cornerRadius = dotSize / 2
+            }
         }
     }
     
-    private var dot: UIView = {
-        let dot = UIView(frame: CGRectMake(0, 0, defaultDotSize, defaultDotSize))
+    @IBInspectable
+    var dotImage: UIImage? {
+        didSet {
+            if dotImage == nil {
+                return
+            }
+            
+            dot.image = dotImage?.imageWithColor(color)
+            dot.layer.cornerRadius = 0.0
+            dot.backgroundColor = UIColor.clearColor()
+        }
+    }
+    
+    private var dot: UIImageView = {
+        let dot = UIImageView(frame: CGRectMake(0, 0, defaultDotSize, defaultDotSize))
         dot.layer.cornerRadius = dot.frame.width / 2
     
         return dot
@@ -68,6 +88,20 @@ class RADotZone: UIView {
     
     private var centerOnView: CGPoint {
         return CGPoint(x: self.frame.width / 2, y: self.frame.height / 2)
+    }
+    
+    // MARK: - Color
+    
+    private func setSelectedColor() {
+        if dot.image == nil {
+            self.dot.backgroundColor = self.selectedColor
+        }
+    }
+    
+    private func setUnselectedColor() {
+        if dot.image == nil {
+            self.dot.backgroundColor = self.color
+        }
     }
     
     // MARK: - Animation
@@ -106,7 +140,7 @@ class RADotZone: UIView {
         UIView.animateWithDuration(currentSpeed * speed, animations: { () -> Void in
             self.dot.center = location
             self.dot.transform = CGAffineTransformScale(CGAffineTransformIdentity, zoom, zoom);
-            self.dot.backgroundColor = self.selectedColor
+            self.setSelectedColor()
         })
     }
     
@@ -127,7 +161,7 @@ class RADotZone: UIView {
             {
                 self.dot.center = self.centerOnView
                 self.dot.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1, 1);
-                self.dot.backgroundColor = self.color
+                self.setUnselectedColor()
             },
             completion: {success in })
         
